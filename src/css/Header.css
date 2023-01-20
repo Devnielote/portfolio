@@ -1,0 +1,55 @@
+.header__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.header__role {
+    letter-spacing: -3px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.header__img {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.header__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.header__info {
+    text-align: center;
+}
+
+.header__info__name {
+    font-size: 3rem;
+}
+
+.header__info__exp {
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.header__info:nth-child(3) {
+    margin-top: 3rem;
+    font-size: 5rem;
+    animation: .8s infinite alternate downArrow;
+}
+
+/* animations */
+
+@keyframes downArrow {
+    from {
+        font-size: 5rem;
+    }
+
+    to {
+        font-size: 5.5rem;
+    }
+}
