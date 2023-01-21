@@ -1,0 +1,19 @@
+.contact__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.line {
+    width: 90%;
+    border: 1px solid black;
+    margin-block: 1rem ;
+}
+
+.contact__social img {
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+}
