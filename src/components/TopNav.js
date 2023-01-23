@@ -1,4 +1,6 @@
 import React from "react";
+import menu from "../assets/icons8-menu.svg";
+import close from "../assets/icons8-close.svg";
 function TopNav() {
   const [toggleMenu, setToggleMenu] = React.useState(false);
 
@@ -10,13 +12,13 @@ function TopNav() {
     <>
       {!toggleMenu && (
         <button onClick={handleMenu} className="topNav__btn">
-          Abrir <br /> menu
+          <img src={menu} alt="" />
         </button>
       )}
 
       {toggleMenu && (
         <button onClick={handleMenu} className="topNav__btn">
-          Cerrar <br /> menu
+          <img src={close} alt="" />
         </button>
       )}
 
