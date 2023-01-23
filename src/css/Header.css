@@ -37,6 +37,7 @@
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: normal;
+    text-shadow: 4px 3px 2px rgba(71,78,60,0.28);
 }
 
 .header__info:nth-child(3) {
