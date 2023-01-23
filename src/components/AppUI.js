@@ -6,6 +6,10 @@ import ".././css/TopNav.css";
 import ".././css/Header.css";
 import ".././css/Experience.css";
 import { Projects } from "./Projects";
+import { Contact } from "./Contact";
+import ".././css/TopNav.css";
+import ".././css/Header.css";
+import "../css/Contact.css";
 
 function AppUI() {
   return (
@@ -14,8 +18,8 @@ function AppUI() {
       <Header />
       <Experience />
       <Projects />
+      <Contact />
     </>
   );
 }
-
 export { AppUI };
