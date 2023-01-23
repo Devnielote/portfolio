@@ -1,3 +1,13 @@
+.projects__container {
+    margin-top: 5rem;
+    color: var(--primary-font);
+}
+.projects__container > p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -7,10 +17,6 @@
     margin-top: 3rem;
 }
 
-.projects__container > p {
-    font-size: 1.5rem;
-    text-align: center;
-}
 
 .project {
     display: flex;

@@ -1,6 +1,8 @@
 .experience__container {
     display: flex;
     flex-direction: column;
+    font-weight: bold;
+    color: var(--primary-font);
 }
 
 .experience__title {
@@ -25,6 +27,10 @@
     flex-direction: column;
     align-items: center;
     margin: 1.5rem;
+}
+
+.experience__languages figure span {
+  font-weight: lighter;
 }
 
 .experience__languages img {

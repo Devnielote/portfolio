@@ -3,11 +3,13 @@
     flex-direction: column;
     width: 100%;
     height: auto;
+    font-weight: bold;
+    color: var(--primary-font);
 }
 
 .header__role {
     letter-spacing: -3px;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 
@@ -27,13 +29,14 @@
 }
 
 .header__info__name {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .header__info__exp {
     margin-top: 3rem;
     padding: 1rem;
     font-size: 1.5rem;
+    font-weight: normal;
 }
 
 .header__info:nth-child(3) {

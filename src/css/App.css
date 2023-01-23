@@ -1,5 +1,6 @@
 :root {
-    -primary--color: #E0DFDD;
+    --primary-color: #E0DFDD;
+    --primary-font: #353024;
 }
 
 * {
@@ -7,10 +8,9 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    color: black;
 }
 
 body {
-    font-family: sans-serif;
-    background-color: #E0DFDD;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--primary-color);
 }
