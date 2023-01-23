@@ -5,6 +5,7 @@ import { Experience } from "./Experience";
 import ".././css/TopNav.css";
 import ".././css/Header.css";
 import ".././css/Experience.css";
+import { Projects } from "./Projects";
 
 function AppUI() {
   return (
@@ -12,6 +13,7 @@ function AppUI() {
       <TopNav />
       <Header />
       <Experience />
+      <Projects />
     </>
   );
 }
